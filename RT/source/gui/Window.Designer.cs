@@ -57,7 +57,7 @@
             // sizeLabel
             // 
             this.sizeLabel.AutoSize = true;
-            this.sizeLabel.Location = new System.Drawing.Point(10, 82);
+            this.sizeLabel.Location = new System.Drawing.Point(10, 16);
             this.sizeLabel.Name = "sizeLabel";
             this.sizeLabel.Size = new System.Drawing.Size(74, 15);
             this.sizeLabel.TabIndex = 2;
@@ -70,7 +70,7 @@
             0,
             0,
             0});
-            this.size.Location = new System.Drawing.Point(10, 99);
+            this.size.Location = new System.Drawing.Point(10, 34);
             this.size.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.size.Maximum = new decimal(new int[] {
             6400,
@@ -95,17 +95,17 @@
             // 
             this.timeList.FormattingEnabled = true;
             this.timeList.ItemHeight = 15;
-            this.timeList.Location = new System.Drawing.Point(10, 148);
+            this.timeList.Location = new System.Drawing.Point(10, 88);
             this.timeList.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.timeList.Name = "timeList";
-            this.timeList.Size = new System.Drawing.Size(246, 349);
+            this.timeList.Size = new System.Drawing.Size(246, 409);
             this.timeList.TabIndex = 2;
             // 
             // thread
             // 
             this.thread.Location = new System.Drawing.Point(5, 50);
             this.thread.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.thread.Maximum = 64;
+            this.thread.Maximum = 128;
             this.thread.Minimum = 1;
             this.thread.Name = "thread";
             this.thread.Orientation = System.Windows.Forms.Orientation.Vertical;
@@ -219,7 +219,7 @@
             // timeLabel
             // 
             this.timeLabel.AutoSize = true;
-            this.timeLabel.Location = new System.Drawing.Point(10, 130);
+            this.timeLabel.Location = new System.Drawing.Point(10, 71);
             this.timeLabel.Name = "timeLabel";
             this.timeLabel.Size = new System.Drawing.Size(91, 15);
             this.timeLabel.TabIndex = 8;

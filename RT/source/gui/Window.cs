@@ -9,7 +9,7 @@ namespace UI
             InitializeComponent();
             saveButton.Enabled = false;
 
-            thread.Value = Environment.ProcessorCount;
+            thread.Value = 3 * Environment.ProcessorCount;
             threadNumber.Text = thread.Value.ToString();
         }
 
